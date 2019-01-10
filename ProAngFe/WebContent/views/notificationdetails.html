@@ -1,0 +1,8 @@
+<div>
+{{hello}}<br/>
+
+	BlogPost titled<b>{{notification[0].blogTittle}}</b>is
+	{{notification[0].approvalStatus}}
+	<div ng-show="notification[0].approvalStatus=='Rejected'">for the
+		reason{{notification[0].rejectionReason}}</div>
+</div>
